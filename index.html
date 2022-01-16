@@ -1,78 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link  rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-    crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>FCC Product Landing Page</title>
-</head>
-<body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <div class="header">
-        <h1><span class="fas fa-feather-alt"></span> Nature Birds</h1>
-      
+  </head>
+  <body>
+    <div id="header">
+      <img id="header-img" src="#" alt="" />
+      <!-- I'm using fontawesome instead -->
+      <h1><span class="fas fa-feather-alt"></span> Nature Birds</h1>
+      <nav id="nav-bar">
         <ul class="nav">
-          <li><a class="nav-link" href="#bird-tube"><i class="fas fa-video"></i>&nbsp; Bird this Week</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Blog</a></li>
+          <li>
+            <a class="nav-link" href="#bird-tube"
+              ><i class="fas fa-video"></i>&nbsp; Bird this Week</a
+            >
+          </li>
+          <li><a class="nav-link" href="#bird-tube">About</a></li>
+          <li><a class="nav-link" href="#bird-tube">Blogs</a></li>
         </ul>
+      </nav>
     </div>
 
     <div class="hero">
-    <div class="hero-inner">
+      <div class="hero-inner">
         <h1>A small newsletter series that visits birds in wilds</h1>
         <p>Subscribe to our newsletter</p>
         <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
-            <input id="submit" type="submit" value="Subscribe" class="button">
-      </form>
-
-    </div>
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required=""
+          />
+          <input id="submit" type="submit" value="Subscribe" class="button" />
+        </form>
+      </div>
     </div>
     <div id="bird-tube">
-        <iframe id="video" height="315" src="https://www.youtube.com/embed/gaUhxQtNOwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe
+        id="video"
+        height="315"
+        src="https://www.youtube.com/embed/gaUhxQtNOwM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
     </div>
     <div class="features">
-        <ul class="object-fit-cover">
+      <ul class="object-fit-cover">
         <li class="card">
-            <img src="330px-Bee_hummingbird.jpg" alt="hummingbird">
-            <div class="card-content">
+          <img src="330px-Bee_hummingbird.jpg" alt="hummingbird" />
+          <div class="card-content">
             <h3>Hummingbirds</h3>
             <p>
-                There are over 300 species in this family. Hummingbirds are the smallest of all the birds and they are found in North America, Central America, the Caribbean, and South America. They are 2.5-4.5 inches in length and have long, thin bills and a long tongue that they use to eat nectar. Hummingbirds have very tiny feet and never walk on the ground!
+              There are over 300 species in this family. Hummingbirds are the
+              smallest of all the birds and they are found in North America,
+              Central America, the Caribbean, and South America. They are
+              2.5-4.5 inches in length and have long, thin bills and a long
+              tongue that they use to eat nectar. Hummingbirds have very tiny
+              feet and never walk on the ground!
             </p>
-            </div>
+          </div>
         </li>
         <li class="card">
-            <img src="330px-Apus_apus_01.jpg" alt="swift-bird">
-            <div class="card-content">
+          <img src="330px-Apus_apus_01.jpg" alt="swift-bird" />
+          <div class="card-content">
             <h3>Swifts</h3>
             <p>
-                Swifts have forked tails and their wings have a boomerang shape when they are outstretched. Swifts spend most of their time in the air and cannot perch because their feet are so tiny! They use their tail feathers to help them land and move around on land. Swifts have short bills and are usually dull in color.
+              Swifts have forked tails and their wings have a boomerang shape
+              when they are outstretched. Swifts spend most of their time in the
+              air and cannot perch because their feet are so tiny! They use
+              their tail feathers to help them land and move around on land.
+              Swifts have short bills and are usually dull in color.
             </p>
-            </div>
+          </div>
         </li>
         <li class="card">
-            <img src="360px-Crested_treeswift.jpg" alt="bird-treeSwift">
-            <div class="card-content">
+          <img src="360px-Crested_treeswift.jpg" alt="bird-treeSwift" />
+          <div class="card-content">
             <h3>Crested_treeswift</h3>
             <p>
-                Treeswifts spend much of their time in flight. They are insectivores and catch their prey in the air. Treeswifts are found in forested areas and woodlands. Treeswifts have crests on their heads and, unlike the swifts, they can perch.
+              Treeswifts spend much of their time in flight. They are
+              insectivores and catch their prey in the air. Treeswifts are found
+              in forested areas and woodlands. Treeswifts have crests on their
+              heads and, unlike the swifts, they can perch.
             </p>
-            </div>
+          </div>
         </li>
-    </ul>
+      </ul>
     </div>
 
     <div class="footer">
-        <p>&copy; 2021 Fictional -just for the project!</p>
+      <p>&copy; 2021 Fictional -just for the project!</p>
     </div>
-
-</body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
 </html>
